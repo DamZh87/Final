@@ -19,6 +19,11 @@
     "add_to_cart": "Добавить",
 
     "all_pizzas": "Все пиццы",
+    "meat_pizzas": "Мясные пиццы",
+    "vegetarian_pizzas": "Вегетарианские пиццы",
+    "grilled_pizzas": "Гриль пиццы",
+    "spicy_pizzas": "Острые пиццы",
+    "closed_pizzas":"Закрытые пиццы",
 
     "all": "Все",
     "meat": "Мясные",

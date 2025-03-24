@@ -51,13 +51,22 @@ const Home = ({ searchValue }) => {
       ? items.slice(startIndex, startIndex + itemsPerPage)
       : [];
 
+   const categoryNames = [
+      t("all_pizzas"),
+      t("meat_pizzas"),
+      t("vegetarian_pizzas"),
+      t("grilled_pizzas"),
+      t("spicy_pizzas"),
+      t("closed_pizzas"),
+   ];
+
    return (
       <div className="container">
          <div className="content__top">
             <Categories value={categoryId} onChangeCategory={setCategoryId} />
             <Sort value={sortType} onChangeSort={setSortType} />
          </div>
-         <h2 className="content__title">{t("all_pizzas")}</h2>
+         <h2 className="content__title">{categoryNames[categoryId]}</h2>
          <div className="content__items">
             {isLoading
                ? [...new Array(8)].map((_, index) => <Skeleton key={index} />)

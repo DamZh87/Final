@@ -15,7 +15,15 @@
   "traditional": "дәстүрлі",
   "add_to_cart": "Қосу",
 
-  "all_pizzas": "Барлық пиццалар",
+  
+    "all_pizzas": "Барлық пиццалар",
+    "meat_pizzas": "Етті пиццалар",
+    "vegetarian_pizzas": "Вегетариандық пиццалар",
+    "grilled_pizzas": "Гриль пиццалар",
+    "spicy_pizzas": "Ащы пиццалар",
+    "closed_pizzas": "Жабық пиццалар",
+
+
 
   "all": "Барлығы",
   "meat": "Етті",
